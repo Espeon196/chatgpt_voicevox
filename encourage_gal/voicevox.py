@@ -38,7 +38,3 @@ def play_audio(audio_file: str):
     print("読み上げスタート")
     playsound(audio_file)
     print("読み上げエンド")
-
-
-if __name__ == "__main__":
-    play_audio("/home/satoshi/code_test/encourage_gal/audio/76dda4e5-4b5f-4cd1-ba93-266558f06dc8.wav")
